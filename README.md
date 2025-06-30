@@ -33,9 +33,6 @@ A simple web application that converts text into spoken audio. Also supports voi
    ```bash
    git clone https://github.com/eshwarvk/Word-Sentence-Pronouncer.git
 
-## Screenshot
-
-![Screenshot of Word/Sentence Pronouncer App](Screenshot.png)
 
 ## Author
 
