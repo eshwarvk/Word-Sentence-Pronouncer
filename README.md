@@ -8,9 +8,6 @@
 
 A simple web application that converts text into spoken audio. Also supports voice selection and pitch/rate adjustment!
 
-## 🔗 Demo
-
-(Host it and link here if you’d like!)
 
 ## 🚀 Features
 
@@ -30,7 +27,6 @@ A simple web application that converts text into spoken audio. Also supports voi
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/eshwarvk/Word-Sentence-Pronouncer.git
 
 
