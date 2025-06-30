@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pronouncer App</title>
+  <link rel="icon" href="icon.png"/>
+  <link rel="stylesheet" href="TTS.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Word/Sentence pronouncer</h1>
+
+    <div class="text-voice-section">
+      <input 
+        type="text" 
+        id="text" 
+        placeholder="Type something to speak..." 
+      />
+
+      <button onclick="convert()">Speak</button>
+    </div>
+
+    <div class="controls">
+      <label for="voiceSelect">Voice:</label>
+      <select id="voiceSelect"></select>
+
+      <label for="pitch">Pitch:</label>
+      <input type="range" id="pitch" min="0" max="2" value="1" step="0.1" />
+
+      <label for="rate">Speed:</label>
+      <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1" />
+    </div>
+
+    <hr />
+  </div>
+
+  <script src="TTS.js"></script>
+</body>
+</html>
